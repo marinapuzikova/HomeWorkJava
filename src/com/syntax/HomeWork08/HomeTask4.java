@@ -4,12 +4,26 @@ public class HomeTask4 {
 
 	public static void main(String[] args) {
 
-		for (int i = 1; i <= 23; i++) {
-			for (int j = 1; j <= 59; j++) {
-				for (int k = 1; k <= 59; k++) {
-					System.out.println(i + ":" + j + ":" + k);
+		String time;
+
+		for (int h = 0; h <= 23; h++) {
+
+			for (int m = 0; m <= 59; m++) {
+
+				if (h < 10 && m < 10) {
+					time = "0" + h + ":0" + m;
+				} else if (h >= 10 && m < 10) {
+					time = h + ":0" + m;
+				} else if (h < 10 && m >= 10) {
+					time = "0" + h + ":" + m;
+				} else {
+					time = h + ":" + m;
 				}
+				System.out.println(time);
 			}
-		}System.out.println("Happy New Year!!!");
+		}
+
+			
+		System.out.println("Happy New Year!!!");
 	}
 }
