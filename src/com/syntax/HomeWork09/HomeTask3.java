@@ -7,8 +7,10 @@ public class HomeTask3 {
 
 		double[] nums = { 20.55, 31.80, 15.63, 10.05, 47.80 };
 
-		for (int i = 4; i >= 0; i--) {
+		for (int i = nums.length - 1; i >= 0; i--) {
 			System.out.println(nums[i]);
+
 		}
 	}
 }
+//we can not use enhanced loop to travel back in array, because its always go in one direction++

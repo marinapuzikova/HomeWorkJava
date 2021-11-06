@@ -16,5 +16,9 @@ public class HomeTask4 {
 			sum2 += num;
 		}
 		System.out.println("The sum of numbers in array is " + sum2);
+		System.out.println("___________________________________");
+	
+		
+		}
 	}
-}
+
