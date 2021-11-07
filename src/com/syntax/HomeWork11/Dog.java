@@ -1,6 +1,6 @@
 package com.syntax.HomeWork11;
 
-public class Task2 {
+public class Dog {
 	/*
 	 * Create a Dog Class and create 3 different objects of it: Husky, Bulldog,
 	 * Labrador with specific attributes and behaviors.
@@ -22,21 +22,21 @@ public class Task2 {
 	}
 
 	public static void main(String[]args) {
-	 Task2 Husky=new Task2();
+	 Dog Husky=new Dog();
 	 Husky.breed="Siberian Husky";
 	 Husky.color="gray";
 	 Husky.height=22.5;
 	 Husky.age=5;
 	 Husky.food= "healthy raw";
 	 
-	 Task2 Bulldog=new Task2();
+	 Dog Bulldog=new Dog();
 	 Bulldog.breed="English Bulldog";
 	 Bulldog.color="brown";
 	 Bulldog.height=12.5;
 	 Bulldog.age=4;
 	 Bulldog.food= "homemade";
 	 
-	 Task2 Labrador=new Task2();
+	 Dog Labrador=new Dog();
 	 Labrador.breed="Labrador Retriever";
 	 Labrador.color="light brown";
 	 Labrador.height=24;

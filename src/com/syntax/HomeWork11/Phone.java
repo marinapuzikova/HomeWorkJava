@@ -1,6 +1,6 @@
 package com.syntax.HomeWork11;
 
-public class Task1 {
+public class Phone {
 	/*
 	 * Create a Class “Phone”. Create 3 Objects of it: iPhone, Google Pixel, Nokia
 	 * with specific attributes and behaviors.
@@ -12,8 +12,6 @@ public class Task1 {
 	int yearBuilt;
 	String video; 
 	
-	
-	
 	void videoRecording() {
 		System.out.println(name+" "+model+" "+color+" provides "+video+" for recording videos");
 	}
@@ -21,7 +19,8 @@ public class Task1 {
 		System.out.println(name+" "+model+" "+color+" " +yearBuilt+" has "+audio);
 	}
 		public static void main(String[]args) {
-			Task1 iPhone=new Task1();
+//type of var     //var  //creating object
+			Phone iPhone=new Phone(); 
 			iPhone.name="iPhone";
 			iPhone.model="13ProMax";
 			iPhone.color="red";
@@ -29,7 +28,7 @@ public class Task1 {
 			iPhone.yearBuilt=2021;
 			iPhone.video="Cinematic mode";
 			
-			Task1 Android=new Task1();
+			Phone Android=new Phone();
 			Android.name="Google Pixel";
 			Android.model="6Pro";
 			Android.color="black";
@@ -37,7 +36,7 @@ public class Task1 {
 			Android.yearBuilt=2021;
 			Android.video="extra 4K 30fps";
 			
-			Task1 Nokia=new Task1();
+			Phone Nokia=new Phone();
 			Nokia.name="Nokia";
 			Nokia.model="C5 Endi";
 			Nokia.color="white";
