@@ -5,7 +5,7 @@ public class Hello {
 	 * Create a method that will say Hello in different language based on the
 	 * country that will passed when method is executed.
 	 */
-	void writeHello(String country) {
+	void writeHello(String country) {//(can be void and String method
 		switch (country) {
 		case "USA":
 			System.out.println("Hello");

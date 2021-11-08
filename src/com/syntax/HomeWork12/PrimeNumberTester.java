@@ -4,8 +4,8 @@ public class PrimeNumberTester {
 
 	public static void main(String[] args) {
 		
-		PrimeNumber check=new PrimeNumber();
-		check.checkPrime(32, true);
+		PrimeNumber check=new PrimeNumber();//creating object
+		System.out.println(check.isPrime(2));
 
 	}
 
