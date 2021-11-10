@@ -13,17 +13,13 @@ public class Task2 {
 		int middle = length / 2;
 		char midCharacter = capital.charAt(middle);
 		if (!capital.isEmpty()) {
-			if (capital.length() % 2 == 1) {
+			if (capital.length() % 2 != 0) {
 				if (capital.length() >= 3) {
 					System.out.println(midCharacter);
 				}
 			} else {
 				System.out.println("String has even number of characters");
 			}
-
-		} else {
-			System.out.println("Empty String");
 		}
-
 	}
 }

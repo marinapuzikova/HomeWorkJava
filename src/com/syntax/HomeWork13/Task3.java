@@ -6,12 +6,12 @@ public class Task3 {
 		// Create a String and print it in reverse order (Sunday → yadnuS).
 
 		String day = "Sunday";
-
+		String newDay = "";
 		for (int i = day.length() - 1; i >= 0; i--) { // -1 because the characters in the string are indexed from 0.
-			System.out.print(day.charAt(i));
+			newDay=newDay+day.charAt(i);
 
 		}
-
+		System.out.print(newDay);
 	}
 
 }
