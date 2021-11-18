@@ -11,12 +11,12 @@ public class Task03Person {
 	private String firstName;
 	private String lastName;
 	private int age;
-
-	private Task03Person() {
+			//these are different access level of constructors:
+	private Task03Person() {//private
 
 	}
 
-	Task03Person(String firstName) {
+	Task03Person(String firstName) {//default
 		this.firstName = firstName;
 	}
 
